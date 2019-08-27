@@ -20,18 +20,6 @@ window.addEventListener("load", () => {
     }); 
 
 // create a functiuon that makes bubbles
-    /*   
-    const createBubbles = (index) => {
-        const bubble = document.createElement("div");
-        visual.appendChild(bubble);
-        bubble.style.backgroundColor = colors[index];
-        bubble.style.animation = "jump 1s linear";
-        bubble.addEventListener("animationend", function(){
-            visual.removeChild(this);
-        })
-    };
-    */
-
     const createBubbles = (pad, index) =>{
         const bubble = document.createElement("div");
         pad.appendChild(bubble);
